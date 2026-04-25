@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import PhoneAnimation from '@/components/PhoneAnimation';
 
-const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.pg.freememory';
+const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.pg.freememory&utm_source=freememory.app&utm_medium=web&utm_campaign=landing_page';
 
 const features = [
   {
