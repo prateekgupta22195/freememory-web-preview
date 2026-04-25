@@ -27,7 +27,6 @@ export const metadata: Metadata = {
     title: 'FreeMemory – Free Phone Cleaner & Duplicate Photo Remover for Android',
     description:
       'Remove duplicate photos, large files & optimize images on Android — no ads, no internet, no paywalls. Free forever.',
-    images: ['/opengraph-image'],
   },
   robots: { index: true, follow: true },
   icons: { icon: '/favicon.ico', apple: '/logo192.png' },
