@@ -16,7 +16,7 @@ export default function Image() {
     { icon: '🚫', label: 'No Ads' },
     { icon: '🔒', label: 'No Internet' },
     { icon: '💸', label: 'Free Forever' },
-    { icon: '⭐', label: '4.4 Rating' },
+    { icon: '⭐', label: '4.5 Rating' },
     { icon: '📲', label: '10K+ Downloads' },
   ];
 

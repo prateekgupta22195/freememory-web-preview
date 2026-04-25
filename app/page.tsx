@@ -124,9 +124,9 @@ const appJsonLd = {
   offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
   aggregateRating: {
     '@type': 'AggregateRating',
-    ratingValue: '4.4',
+    ratingValue: '4.5',
     bestRating: '5',
-    ratingCount: '100',
+    ratingCount: '52',
   },
   author: { '@type': 'Person', name: 'Prateek Gupta' },
 };
@@ -154,7 +154,7 @@ export default function HomePage() {
           <div className="container">
             <div className="logo">
               <Image src="/app-logo.png" alt="FreeMemory" width={40} height={40} priority />
-              <h1>FreeMemory</h1>
+              <span className="logo-name">FreeMemory</span>
             </div>
             <a href={PLAY_STORE_URL} className="play-store-button" target="_blank" rel="noopener noreferrer">
               <img
@@ -169,11 +169,11 @@ export default function HomePage() {
           <section className="hero">
             <div className="container">
               <div className="hero-content">
-                <h2>Free Phone Cleaner &amp; Duplicate Photo Remover</h2>
+                <h1>Free Phone Cleaner &amp; Duplicate Photo Remover</h1>
                 <p>Clean duplicates, large files &amp; optimize images. No ads, no internet needed.</p>
                 <div className="app-stats">
                   <div className="stat">
-                    <span className="stat-value">4.4 ★</span>
+                    <span className="stat-value">4.5 ★</span>
                     <span className="stat-label">Rating</span>
                   </div>
                   <div className="stat">
@@ -255,9 +255,9 @@ export default function HomePage() {
           <div className="container">
             <p>© {new Date().getFullYear()} FreeMemory. All rights reserved.</p>
             <div className="footer-links">
-              <a href="#privacy">Privacy Policy</a>
-              <a href="#terms">Terms of Service</a>
-              <a href="#contact">Contact Us</a>
+              <a href="/privacy">Privacy Policy</a>
+              <a href="/terms">Terms of Service</a>
+              <a href="/contact">Contact Us</a>
             </div>
           </div>
         </footer>
